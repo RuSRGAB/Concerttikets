@@ -1,0 +1,171 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+html body {
+  background-color: rgb(194, 157, 63);
+}
+
+.slider {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: left;
+  background-color: rgb(79, 79, 73);
+}
+
+#ImagenPortada {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+#LgCompra {
+  height: 50px;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  padding: 0.5em;
+  background-color: #ccc;
+}
+
+.nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.nav ul li {
+  line-height: 3;
+  display: inline-block;
+  padding-left: 50px;
+}
+.nav li:last-child {
+  margin-right: 0%;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2vw;
+  padding-top: 20px;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+#containerFoot {
+  background-color: #ccc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+#container2Footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(79, 79, 73);
+}
+
+#container2Footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#container2Footer ul li {
+  margin: 0 10px; 
+}
+
+#container2Footer ul li img {
+  height: 50px; 
+}
+
+.container {
+  display: flex;
+  height: 800px;
+}
+
+.left-container,
+.right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.top-section {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(194, 157, 63);
+}
+
+.bottom-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-container {
+  background-color: rgb(194, 157, 63);
+}
+
+.right-container {
+  background-color: rgb(194, 157, 63);
+}
+
+.foto {
+  max-height: 100px;
+  max-width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #49515a;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #49515a;
+}
